@@ -9,7 +9,7 @@ from mean_variance_norm import MeanVarianceNorm
 STATE_NUM=5
 F = str(0.01)
 SFAC = str(5.0)
-PRUNING = [str(i) for i in (250., 150., 2000.)]
+PRUNING = [str(i) for i in (250., 150., 5000.)]
 
 MACROS = 'macros'
 HMMDEFS = 'hmmdefs'
